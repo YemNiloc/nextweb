@@ -1,0 +1,126 @@
+body {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.header {
+    background: rgb(128, 122, 139);
+    border: 200px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.left, .right {
+   display: flex;
+   
+   align-items: center;
+   gap: 16px;
+}
+.left2{
+   flex-flow:column;
+   
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+
+.header-title {
+    background: rgb(25, 0, 255);
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+}
+
+.header-links {
+  background: rgb(157, 35, 35);
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+.block2 {
+    background: rgb(128, 122, 139);
+    border: 200px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    flex-flow: wrap;
+    background: rgb(255, 255, 255);
+    border: 200px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h3 {
+    display: flex;
+    text-align: center, red;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.block3 {
+    flex-flow: wrap;
+    background: rgb(179, 179, 179);
+    border: 200px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block4 {
+    flex-flow: wrap;
+    background: rgb(255, 255, 255);
+    border: 10px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    padding: 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+.block4inner {
+    flex-flow: center;
+    background: rgb(109, 93, 144);
+    border: 8px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    flex-flow: center;
+    background: rgb(128, 122, 139);
+    border: 8px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
